@@ -22,6 +22,7 @@ img {
 }
 
 
+
 /********** FLEX **********/
 .flex {
     display: flex;
@@ -46,6 +47,7 @@ img {
 }
 
 
+
 /********** HEADER **********/
 header {
     background-color: #0084fd;
@@ -63,9 +65,6 @@ header {
 }
 
 /* HAMBURGER MENU' */
-
-
-
 
 
 
@@ -344,10 +343,9 @@ button i {
 .cta button {
     background-color: white;
     color: #9792e4;
-    width: 100%;
     border-radius: 25px;
     border: none;
-    padding: 15px;
+    padding: 15px 30px;
     font-size: 1.2rem;
 }
 
@@ -359,11 +357,17 @@ button i {
 
 
 
-
-
-
 /********** FOOTER ***********/
+footer {
+    background-color: #333333;
+    color: white;
+}
 
+.info {
+    display: grid;
+    row-gap: 60px;
+    text-align: center;
+}
 
 
 
@@ -430,6 +434,12 @@ button i {
 
     .us-employee button {
         width: 100%;
+    }
+
+    #get-started .container,
+    footer .container {
+        max-width: 600px;
+        margin: 0 auto;
     }
 }
 
