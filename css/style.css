@@ -217,6 +217,59 @@ button i {
 /* end PARTNERS */
 
 
+/* BENEFITS */
+.benefits-list button,
+#benefits {
+    background-color: #9792e4;
+    color: white;
+}
+
+#benefits h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px 0px;
+}
+
+.benefits-list {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    margin: 20px;
+    padding: 20px 30px;
+}
+
+
+.benefits-list h3,
+.benefits-list h4 {
+    color: #9792e4;
+    padding: 15px 0px;
+}
+
+.benefits-list h3 {
+    font-size: 3rem;
+}
+
+.benefits-list h4 {
+    font-size: 1.5rem;
+}
+
+.benefits-list button {
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 40px;
+    font-size: 1rem;
+    margin: 20px 0px;
+}
+
+/* end BENEFITS */
+
+
+
+
+
+
+
 
 /********** FOOTER ***********/
 
@@ -264,6 +317,15 @@ button i {
 
     .testimonials-reviews {
         margin-bottom: 40px;
+    }
+
+    .flex-benefits-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-list {
+        width: calc(100% / 2 - 40px);
     }
 }
 
@@ -330,5 +392,8 @@ button i {
         display: flex;
     }
 
+    .benefits-list {
+        width: calc(100% / 3 - 40px);
+    }
 
 }
