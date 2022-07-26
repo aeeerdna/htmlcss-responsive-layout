@@ -176,6 +176,45 @@ button i {
 /* end STRATEGIC PLANNING */
 
 
+/* PARTNERS */
+#partners {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#partners h2 {
+    margin: 25px 0px;
+    font-size: 2rem;
+    color: #9792e4;
+}
+
+.intro-testimonials p {
+    font-size: 1.2rem;
+    padding: 0px 30px 20px;
+}
+
+.testimonials {
+    background-color: #9792e4;
+    color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.testimonials-reviews p:first-child {
+    font-size: 1.3rem;
+    padding: 20px 0px;
+}
+
+/* end PARTNERS */
 
 
 
@@ -188,6 +227,7 @@ button i {
 
 /********** MEDIAQUERY **********/
 
+/* 768px */
 @media screen and (min-width: 768px) {
     #demo .card {
         height: 100%;
@@ -211,11 +251,25 @@ button i {
     #planning h2 {
         font-size: 4rem;
     }
+
+    .testimonials {
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+    .testimonials img {
+        margin-right: 30px
+    }
+
+    .testimonials-reviews {
+        margin-bottom: 40px;
+    }
 }
 
 
 
-
+/* 1200px */
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1000px;
@@ -275,4 +329,6 @@ button i {
     #planning .column {
         display: flex;
     }
+
+
 }
