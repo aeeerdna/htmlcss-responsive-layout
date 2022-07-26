@@ -317,8 +317,46 @@ button i {
     margin: 20px 0px;
 }
 
-
 /* end ABOUT US */
+
+
+/* GET STARTED */
+#get-started {
+    background-color: #9792e4;
+    color: white;
+}
+
+.cta {
+    display: grid;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.cta h3 {
+    font-size: 1.8rem;
+}
+
+.cta h2 {
+    font-size: 4rem;
+    color: #fdc15f;
+}
+
+.cta button {
+    background-color: white;
+    color: #9792e4;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.cta a {
+    color: white;
+}
+
+/* end GET STARTED */
+
 
 
 
