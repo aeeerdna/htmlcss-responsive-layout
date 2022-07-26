@@ -265,7 +265,60 @@ button i {
 /* end BENEFITS */
 
 
+/* ABOUT US */
+#about-us {
+    background-color: white;
+    color: #9792e4;
+}
 
+#about-us h2 {
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+
+.us-introduction p {
+    color: black;
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 30px 0px;
+}
+
+.us-employee img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    font-size: 4rem;
+}
+
+.us-employee p {
+    font-size: 2em;
+    padding: 20px 0px;
+}
+
+.us-employee button {
+    background-color: #9792e4;
+    color: white;
+    width: 75%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 20px 0px;
+}
+
+
+/* end ABOUT US */
 
 
 
@@ -326,6 +379,19 @@ button i {
 
     .benefits-list {
         width: calc(100% / 2 - 40px);
+    }
+
+    .us {
+        display: flex;
+        margin: 20px;
+    }
+
+    .us-introduction {
+        margin-right: 80px;
+    }
+
+    .us-employee button {
+        width: 100%;
     }
 }
 
